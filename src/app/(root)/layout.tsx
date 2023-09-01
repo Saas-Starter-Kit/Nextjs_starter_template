@@ -1,8 +1,8 @@
-import NavBarMain from './PageSections/NavBarMain';
+import NavBarMain from './PageComponents/NavBarMain';
 
 const SiteLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center p-24">
       <NavBarMain />
       <div>{children}</div>
     </main>

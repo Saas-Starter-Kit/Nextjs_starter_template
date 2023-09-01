@@ -3,7 +3,7 @@ import config from '@/lib/config/default';
 
 const NavBarMain = () => {
   return (
-    <div className="">
+    <div>
       {config.routes.map((route) => (
         <NavItem key={route.title} title={route.title} link={route.link} />
       ))}

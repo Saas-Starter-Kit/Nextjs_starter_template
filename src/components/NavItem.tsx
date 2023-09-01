@@ -7,7 +7,7 @@ export interface NavItemProps {
 
 const NavItem = ({ title, link }: NavItemProps) => {
   return (
-    <Link href={link} replace>
+    <Link className="p-12" href={link} replace>
       {title}
     </Link>
   );
