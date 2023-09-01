@@ -1,4 +1,4 @@
-A basic template with Nextjs and Tailwind. Best for starting new projects. 
+A basic template with Nextjs and Tailwind.
 
 
 ## Getting Started
